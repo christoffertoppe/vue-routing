@@ -8,11 +8,12 @@
         crossorigin="">
 
 </script>
+    <title>Routing</title>
 </head>
 <template>
   <div id="app" class="small-container">
-    <h1>Employees</h1>
-      <employee-table/>
+   <!-- <h1>Employees</h1>
+      <employee-table/> -->
     <h1>Citybikes</h1>
       <Kartta/>
       <Bikes/>
@@ -20,14 +21,14 @@
 </template>
 
 <script>
-  import EmployeeTable from '@/components/Tyontekijataulu.vue'
+ // import EmployeeTable from '@/components/Tyontekijataulu.vue'
   import Bikes from '@/components/pyorat.vue'
   import Kartta from '@/components/kartta.vue'
 
   export default {
     name: 'app',
     components: {
-      EmployeeTable,
+    //  EmployeeTable,
       Bikes,
       Kartta,
     },
