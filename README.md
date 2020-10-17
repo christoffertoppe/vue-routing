@@ -2,4 +2,4 @@
 
 ## Project setup
 
-Routing from one bike statiton to an other.
+Routing from one bike station to an other.
